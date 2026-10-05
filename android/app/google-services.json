@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "793505994977",
+    "project_id": "careerwise-sample",
+    "storage_bucket": "careerwise-sample.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793505994977:android:84fa096f3384c2e5163fa0",
+        "android_client_info": {
+          "package_name": "com.example.careerwise_sample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrm0pWNN5CuOCNtq_2wFS4z9X5TjppiBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

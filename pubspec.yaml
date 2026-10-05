@@ -1,0 +1,40 @@
+name: careerwise_sample
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.14.0
+  firebase_auth: ^6.6.1
+  cloud_firestore: ^6.9.0
+  firebase_app_check: ^0.4.7
+  video_player: ^2.14.0
+
+  # ✅ Direct REST API call කරන්න
+  http: ^1.2.2
+
+  # ---- Notifications ----
+  firebase_messaging: ^16.7.0
+  flutter_local_notifications: ^22.3.1
+  timezone: ^0.11.0
+  googleapis_auth: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/videos/career_background.mp4
+    - assets/config/service_account.json
